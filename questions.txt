@@ -1,13 +1,13 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+I expected it to control the rest of the program.
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+Registered my text and gave back a line of text. 
 What do you think the program did with what you typed?
-
+Saved it as information. 
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+It includes the command, "color = input()"
 What do you think the color = input() will do? 
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
