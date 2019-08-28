@@ -9,71 +9,71 @@ Saved it as information.
 Open main2.py. Before running it, describe how this is different than main1.py. 
 It includes the command, "color = input()"
 What do you think the color = input() will do? 
-
+It will turn the variable "color" into whatever is input. 
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+Yes, and then it printed the color I chose. 
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+It contains an if statement. 
 What is happening on lines 11–14? 
-
+The program is stating that if the variable "color" is set as red, then that will be a correct response.
 Why are lines 12 and 14 indented? 
-
+Because they are part of the if statement. 
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+Sorry, try again is printed. 
 What does this tell you about "color"?
-
+The text is specific to "Red" to be correct. 
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+The program includes "or" to get a corect response from "red"
 What problem is this trying to solve? 
-
+That the answer to the question must be capitalized. 
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
 
-
+"Sorry, try again."
 
 Open main5.py. What do you expect line 11 to do? 
-
+Only print correct responses based on letters, not capitalization. 
 What problem is it trying to solve? 
-
+The capitalization issue. 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
 
-
+An incorrect response is received. 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+It includes .strip()
 What would you guess .strip() is doing? 
-
+Taking away the spacing restriction. 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+Yes, "r  e  d"
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+Writing pink will return the text, "Close!"
 What is the purpose of line 11? 
-
+Creates some rules to govern the variable "color"
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+I am not sure. 
 Why are lines 12–19 indented? 
-
+They are commands to enact after a rule was stated. 
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+I am not sure. 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
-
+Close! was stated many times when pink was input. 
+red gave no response. 
 
 Open main9.py. What is happening on line 12? 
-
+There is a "while" function that defines the correct answer for the question. 
 What is the purpose of “count”? 
-
+To see how many tries it takes to get the right answer. 
 What is happening on line 22? 
-
+The number of tries is being written as text after the correct answer is obtained. 
 Run the program.
 
 
