@@ -7,9 +7,13 @@ utils.clear()                       # clear the screen
 
 
 print('Greetings!')
+#Greeting is written at the beginning. 
 colors = ['red','orange','yellow','green','blue','violet','purple']
+#Variable "colors" is being defined as 7 options of colors
 play_again = ''
-best_count = sys.maxsize            # the biggest number
+#Defines variable " play_again"
+best_count = sys.maxsize           
+# the biggest number
 while (play_again != 'n' and play_again != 'no'):
     match_color = random.choice(colors)
     count = 0
