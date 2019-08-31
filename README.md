@@ -55,3 +55,6 @@ The grading criteria will be as follows:
 * [8] Accomplishes the objective of the exercise
 
 10 points total
+
+README DESCRIPTION
+In this assignment I ran all of the python programs while answering the questions, changed the license in the licensce file, and commented on some of the extra credit program code lines but got confused about what they were saying. 
