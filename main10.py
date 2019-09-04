@@ -13,14 +13,21 @@ colors = ['red','orange','yellow','green','blue','violet','purple']
 play_again = ''
 #Defines variable " play_again"
 best_count = sys.maxsize           
-# the biggest number
+#Variable best_count is defined as the maximum integer for the count.
 while (play_again != 'n' and play_again != 'no'):
+    # while statement to deny play again function with inputs 'n' and 'no'
     match_color = random.choice(colors)
+    # defines variable of match_color as a random choice between the color options
     count = 0
+    # introduces the original count of the program as 0
     color = ''
+    # defines the variable color
     while (color != match_color):
+        # while statement to introduce when color is not match_color
         color = input("\nWhat is my favorite color? ")  #\n is a special code that adds a new line
+        # color is defined as the answer to what is my favorite color
         color = color.lower().strip()
+        # defines that spaces and capitalization are not relevant 
         count += 1
         if (color == match_color):
             print('Correct!')
